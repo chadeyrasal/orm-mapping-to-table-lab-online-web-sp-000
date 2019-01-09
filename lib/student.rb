@@ -39,7 +39,7 @@ class Student
   end
 
   def self.create(attributes_hash)
-    student = Student.new(name, grade)
+    student = Student.new(attributes_hash)
     student.save
     student
   end
